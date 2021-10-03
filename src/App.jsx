@@ -11,6 +11,16 @@ import Pic4 from "./assets/4.png";
 import Pic5 from "./assets/5.png";
 import Pic6 from "./assets/6.png";
 import Pic7 from "./assets/7.png";
+import Pic8 from "./assets/8.png";
+import Pic9 from "./assets/9.png";
+import Pic10 from "./assets/10.png";
+import Pic11 from "./assets/11.png";
+import Pic12 from "./assets/12.png";
+import Pic13 from "./assets/13.png";
+import Pic14 from "./assets/14.png";
+import Pic15 from "./assets/15.png";
+import Pic16 from "./assets/16.png";
+import Pic17 from "./assets/17.png";
 import Trans1 from "./assets/trans1.png";
 import Trans2 from "./assets/trans2.png";
 import Trans3 from "./assets/trans3.png";
@@ -242,47 +252,47 @@ const App = () => {
               <img onClick={displayCh6} className="ch ch6" src={Pic5} alt="" />
               <img onClick={displayCh7} className="ch ch7" src={Pic6} alt="" />
               <img onClick={displayCh8} className="ch ch8" src={Pic7} alt="" />
-              <img onClick={displayCh9} className="ch ch9" src={Pic0} alt="" />
+              <img onClick={displayCh9} className="ch ch9" src={Pic8} alt="" />
               <img
                 onClick={displayCh10}
                 className="ch ch10"
-                src={Pic1}
+                src={Pic9}
                 alt=""
               />
               <img
                 onClick={displayCh11}
                 className="ch ch11"
-                src={Pic2}
+                src={Pic10}
                 alt=""
               />
               <img
                 onClick={displayCh12}
                 className="ch ch12"
-                src={Pic3}
+                src={Pic11}
                 alt=""
               />
               <img
                 onClick={displayCh13}
                 className="ch ch13"
-                src={Pic4}
+                src={Pic12}
                 alt=""
               />
               <img
                 onClick={displayCh14}
                 className="ch ch14"
-                src={Pic5}
+                src={Pic13}
                 alt=""
               />
               <img
                 onClick={displayCh15}
                 className="ch ch15"
-                src={Pic6}
+                src={Pic14}
                 alt=""
               />
               <img
                 onClick={displayCh16}
                 className="ch ch16"
-                src={Pic7}
+                src={Pic15}
                 alt=""
               />
             </div>
@@ -392,8 +402,8 @@ const App = () => {
       <div className="mint section" id="section3">
         <div className="box">
           <div className="mint-content">
-            <h1>Specters Sold: 0/7,850</h1>
-            <h1>Mint Price: 0.75 SOL</h1>
+            <h1>Specters Sold: 0/8,888</h1>
+            <h1>Mint Price: 0.8 SOL</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               quos provident, aspernatur est dolorum consequatur. Repellat eos
