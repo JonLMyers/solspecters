@@ -1,6 +1,9 @@
+/* eslint-disable */
 import React, { useEffect } from "react";
 import "./App.css";
-import { FaTwitterSquare, FaDiscord, FaLinkedin } from "react-icons/fa";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import CharacterBox from "./components/CharacterBox";
 import Banner from "./assets/banner.png";
 import Pic0 from "./assets/0.png";
@@ -25,13 +28,15 @@ import Trans1 from "./assets/trans1.png";
 import Trans2 from "./assets/trans2.png";
 import Trans3 from "./assets/trans3.png";
 import Saim from "./assets/saim.jpg";
-import Logo from "./assets/logo.png";
+import Logo from "./assets/solo_logo.png";
 
 import { Power4 } from "gsap/dist/gsap";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import $ from "jquery";
+
+library.add(fab);
 
 const App = () => {
   useEffect(() => {
@@ -202,6 +207,18 @@ const App = () => {
     $(".CHB").removeClass("activeCHB");
     $(".CHB16").addClass("activeCHB");
   };
+  const displayCh17 = () => {
+    $(".ch").removeClass("activeCh");
+    $(".ch17").addClass("activeCh");
+    $(".CHB").removeClass("activeCHB");
+    $(".CHB17").addClass("activeCHB");
+  };
+  const displayCh18 = () => {
+    $(".ch").removeClass("activeCh");
+    $(".ch18").addClass("activeCh");
+    $(".CHB").removeClass("activeCHB");
+    $(".CHB18").addClass("activeCHB");
+  };
   return (
     <div className="body">
       {/* Sticky Header */}
@@ -218,11 +235,11 @@ const App = () => {
               <a onClick={moveTo5}>Roadmap</a>
             </div>
             <div className="header-right">
-              <a href="">
-                <FaTwitterSquare />
+              <a href="https://discord.gg/kWnNs8y7VJ">
+                <FontAwesomeIcon icon={["fab", 'discord']} />
               </a>
-              <a href="">
-                <FaDiscord />
+              <a href="https://twitter.com/SolSpecters">
+                <FontAwesomeIcon icon={["fab", "twitter-square"]} />
               </a>
             </div>
           </div>
@@ -231,7 +248,7 @@ const App = () => {
 
       {/* Hero Section */}
       <div className="hero" id="section1">
-        <img src={Banner} alt="" />
+        <img src={Logo} alt="" />
       </div>
 
       {/* SpecDex Section */}
@@ -295,7 +312,10 @@ const App = () => {
                 src={Pic15}
                 alt=""
               />
+              <img onClick={displayCh17} className="ch ch17" src={Pic16} alt="" />
+              <img onClick={displayCh18} className="ch ch18" src={Pic17} alt="" />
             </div>
+            
             <div className="sp-right">
               <CharacterBox
                 className="CHB CHB1 activeCHB"
@@ -347,51 +367,63 @@ const App = () => {
               />
               <CharacterBox
                 className="CHB CHB9"
-                img={Pic0}
+                img={Pic8}
                 name="Character 9"
                 description="This is the description for the character 9."
               />
               <CharacterBox
                 className="CHB CHB10"
-                img={Pic1}
+                img={Pic9}
                 name="Character 10"
                 description="This is the description for the character 10."
               />
               <CharacterBox
                 className="CHB CHB11"
-                img={Pic2}
+                img={Pic10}
                 name="Character 11"
                 description="This is the description for the character 11."
               />
               <CharacterBox
                 className="CHB CHB12"
-                img={Pic3}
+                img={Pic11}
                 name="Character 12"
                 description="This is the description for the character 12."
               />
               <CharacterBox
                 className="CHB CHB13"
-                img={Pic4}
+                img={Pic12}
                 name="Character 13"
                 description="This is the description for the character 13."
               />
               <CharacterBox
                 className="CHB CHB14"
-                img={Pic5}
+                img={Pic13}
                 name="Character 14"
                 description="This is the description for the character 14."
               />
               <CharacterBox
                 className="CHB CHB15"
-                img={Pic6}
+                img={Pic14}
                 name="Character 15"
                 description="This is the description for the character 15."
               />
               <CharacterBox
                 className="CHB CHB16"
-                img={Pic7}
+                img={Pic15}
                 name="Character 16"
                 description="This is the description for the character 16."
+              />
+              <CharacterBox
+                className="CHB CHB17"
+                img={Pic16}
+                name="Character 17"
+                description="This is the description for the character 17."
+              />
+              <CharacterBox
+                className="CHB CHB18"
+                img={Pic17}
+                name="Character 18"
+                description="This is the description for the character 18."
               />
             </div>
           </div>
@@ -484,7 +516,7 @@ const App = () => {
                 </div>
               </div>
               <div className="faq-grid-right">
-                <img src={Pic1} alt="" />
+                <img src={Logo} alt="" />
               </div>
             </div>
           </div>
@@ -564,37 +596,21 @@ const App = () => {
                 <img src={Saim} alt="" />
                 <h3>Saim Abbas</h3>
                 <h4>Frontend Developer</h4>
-                <main>
-                  <FaTwitterSquare />
-                  <FaLinkedin />
-                </main>
               </div>
               <div className="team-card">
                 <img src={Saim} alt="" />
                 <h3>Saim Abbas</h3>
                 <h4>Frontend Developer</h4>
-                <main>
-                  <FaTwitterSquare />
-                  <FaLinkedin />
-                </main>
               </div>
               <div className="team-card">
                 <img src={Saim} alt="" />
                 <h3>Saim Abbas</h3>
                 <h4>Frontend Developer</h4>
-                <main>
-                  <FaTwitterSquare />
-                  <FaLinkedin />
-                </main>
               </div>
               <div className="team-card">
                 <img src={Saim} alt="" />
                 <h3>Saim Abbas</h3>
                 <h4>Frontend Developer</h4>
-                <main>
-                  <FaTwitterSquare />
-                  <FaLinkedin />
-                </main>
               </div>
             </div>
           </div>
@@ -604,14 +620,6 @@ const App = () => {
       {/* Footer */}
       <div className="box">
         <div className="footer">
-          <span>
-            <a href="">
-              <FaTwitterSquare />
-            </a>
-            <a href="">
-              <FaDiscord />
-            </a>
-          </span>
           <p>Copyright © 2021 SolSpecters. All Rights Reserved.</p>
         </div>
       </div>

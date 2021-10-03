@@ -20,10 +20,14 @@
   --black: #000;
   --white: #fff;
   --bgc: #f6f7f8;
+  --darkgrey: #1e1e1e;
+  --lightgrey: #2f2f2f;
+  --superlightgrey: #414143;
+  --paper: #eaeae1;
 }
 html,
 body {
-  background-color: var(--bgc);
+  background-color: var(--paper);
   width: 100%;
   max-width: 100%;
 }
@@ -68,7 +72,7 @@ button {
   width: 100%;
   height: 6rem;
   transform: translate(0, 43.5rem);
-  background-color: rgba(119, 144, 218, 0.9);
+  background-color: var(--superlightgrey);
   backdrop-filter: blur(5px);
   position: sticky;
   top: -43.5rem;
@@ -192,7 +196,7 @@ button {
 
 /* Mint Section */
 .mint {
-  background-color: var(--blue);
+  background-color: var(--superlightgrey);
   padding: 5rem 0;
 }
 .mint-content {
@@ -214,7 +218,7 @@ button {
   background-color: var(--white);
   padding: 1.25rem 2.5rem;
   font-size: 1.65rem;
-  color: var(--blue);
+  color: var(--superlightgrey);
   font-weight: 700;
   transition: 0.5s;
 }
@@ -231,7 +235,7 @@ button {
 .faq-content h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--superlightgrey);
   margin: 0 0 2.5rem 0;
 }
 .faq-grid {
@@ -242,7 +246,7 @@ button {
   width: 100%;
 }
 .faq-q {
-  background-color: var(--blue);
+  background-color: var(--superlightgrey);
   color: var(--white);
   padding: 1rem 1.75rem;
   font-size: 1.65rem;
@@ -269,17 +273,17 @@ button {
 
 /* Roadmap Section */
 .roadmap {
-  background-color: var(--white);
+  background-color: var(--paper);
 }
 .roadmap h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--superlightgrey);
   margin: 0 0 3.5rem 0;
 }
 .roadmap-box {
   width: 100%;
-  background-color: var(--blue);
+  background-color: var(--superlightgrey);
   padding: 5rem 3.5rem 2.5rem 3.5rem;
   margin: 0 0 7.5rem 0;
   position: relative;
@@ -299,7 +303,7 @@ button {
   left: 0;
   transform: translate(3.5rem, 100%);
   height: 100%;
-  border-left: 2px dashed var(--blue);
+  border-left: 2px dashed var(--superlightgrey);
 }
 .roadmap-box:last-child {
   margin: 0;
@@ -322,7 +326,7 @@ button {
 .team-content h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  color: var(--blue);
+  color: var(--superlightgrey);
   margin: 0 0 2.5rem 0;
 }
 .team-grid {
@@ -335,7 +339,7 @@ button {
 .team-card {
   width: 100%;
   padding: 2.5rem 2.5rem;
-  background-color: var(--blue);
+  background-color: var(--superlightgrey);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -389,11 +393,11 @@ button {
   justify-content: center;
   margin: 0 0 0.75rem 0;
   font-size: 2.5rem;
-  color: var(--blue);
+  color: var(--superlightgrey);
 }
 .footer span svg {
   margin: 0 1.25rem;
-  color: var(--blue);
+  color: var(--superlightgrey);
 }
 @media screen and (max-width: 1000px) {
   .section {
@@ -493,7 +497,7 @@ button {
     font-size: 1.5rem;
   }
   .roadmap-box {
-    background-color: var(--blue);
+    background-color: var(--superlightgrey);
     padding: 1.75rem;
     margin: 0 0 5rem 0;
   }
@@ -508,7 +512,7 @@ button {
     background-color: var(--white);
     padding: 1rem 2.5rem;
     font-size: 1.5rem;
-    color: var(--blue);
+    color: var(--superlightgrey);
     font-weight: 700;
     transition: 0.5s;
   }
