@@ -5,7 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import CharacterBox from "./components/CharacterBox";
-import Banner from "./assets/banner.png";
+import Banner from "./assets/banner_test.png";
 import Pic0 from "./assets/0.png";
 import Pic1 from "./assets/1.png";
 import Pic2 from "./assets/2.png";
@@ -248,7 +248,7 @@ const App = () => {
 
       {/* Hero Section */}
       <div className="hero" id="section1">
-        <img src={Logo} alt="" />
+        <img src={Banner} alt="" />
       </div>
 
       {/* SpecDex Section */}
@@ -437,10 +437,6 @@ const App = () => {
             <h1>Specters Sold: 0/8,888</h1>
             <h1>Mint Price: 0.8 SOL</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              quos provident, aspernatur est dolorum consequatur. Repellat eos
-              ipsam illum ad ratione fugit veritatis minima nostrum dolorum quae
-              modi quia magnam beatae odio, atque quo mollitia!
             </p>
             <button>MINT NOW</button>
           </div>
@@ -456,62 +452,38 @@ const App = () => {
               <div className="faq-grid-left">
                 <div className="faq-box">
                   <div className="faq-q q1 q" onClick={q1}>
-                    Q . Lorem, ipsum dolor sit amet cons icing elit. Eligendi
-                    eaque, repud Eligendi eaque, repud
+                  1) What are SolSpecter?
                   </div>
                   <div className="faq-a a1 a">
-                    A. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima tempore voluptatem eos quos nam architecto
-                    perspiciatis, asperiores repudiandae? Unde tempora
-                    dignissimos vitae minus architecto, quod eligendi sequi, ut
-                    molestias consequatur saepe temporibus quo eos blanditiis
-                    autem error eveniet perspiciatis illum possimus, ullam amet?
-                    Atque delectus consequatur nulla, repellat rerum neque.
+                  SolSpecters are 8888 unique programmatically generated NFTs that are all that remains after the Great Gas 
+War decimated all life on Earth. Specters have taken shape to their different regions, slowly rebuilding
+what once was.
                   </div>
                 </div>
                 <div className="faq-box">
                   <div className="faq-q q2 q" onClick={q2}>
-                    Q . Lorem, ipsum dolor t. Eligendi eaque, repud Eligendi
-                    eaque, repud repu pud Eligendi eaque, repud eaque, repud
+                  2) What Wallets does SolSpecters Support?
                   </div>
                   <div className="faq-a a2 a">
-                    A. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima tempore voluptatem eos quos nam architecto
-                    perspiciatis, asperiores repudiandae? Unde tempora
-                    dignissimos vitae minus architecto, quod eligendi sequi, ut
-                    molestias consequatur saepe temporibus quo eos blanditiis
-                    autem error eveniet perspiciatis illum possimus, ullam amet?
-                    Atque delectus consequatur nulla, repellat rerum neque.
+                  SolSpecters minting process officially supports the Phantom Wallet! Other wallets are available if you desire but minting was tested with Phantom. 
+Click here to download the Phantom Wallet https://phantom.app/
                   </div>
                 </div>
                 <div className="faq-box">
                   <div className="faq-q q3 q" onClick={q3}>
-                    Q . Lorem, ipsum dolor sit amet cons ic . Eligendi eaque,
-                    repud Eligendi eaque, repud
+                  3) When is the launch? How much will it cost?
                   </div>
                   <div className="faq-a a3 a">
-                    A. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima tempore voluptatem eos quos nam architecto
-                    perspiciatis, asperiores repudiandae? Unde tempora
-                    dignissimos vitae minus architecto, quod eligendi sequi, ut
-                    molestias consequatur saepe temporibus quo eos blanditiis
-                    autem error eveniet perspiciatis illum possimus, ullam amet?
-                    Atque delectus consequatur nulla, repellat rerum neque.
+                  Our whitelisted presale will be taking place on the 6th of October and out public sale will be on the 7th.
+SolSpecters cost .8 Sol per mint.
                   </div>
                 </div>
                 <div className="faq-box">
                   <div className="faq-q q4 q" onClick={q4}>
-                    Q . Lorem, ipsum dolor sit amet cons icing elit. Eligendi
-                    eaque, repud Eligendi eaque, repud
+                  4) Where can I trade my SolSpecters?
                   </div>
                   <div className="faq-a a4 a">
-                    A. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima tempore voluptatem eos quos nam architecto
-                    perspiciatis, asperiores repudiandae? Unde tempora
-                    dignissimos vitae minus architecto, quod eligendi sequi, ut
-                    molestias consequatur saepe temporibus quo eos blanditiis
-                    autem error eveniet perspiciatis illum possimus, ullam amet?
-                    Atque delectus consequatur nulla, repellat rerum neque.
+                  We expected to be listed on the digitaleyes marketplace!
                   </div>
                 </div>
               </div>
@@ -530,56 +502,37 @@ const App = () => {
             <h1>Roadmap</h1>
             <div className="roadmap-box">
               <img src={Trans1} alt="" />
-              <h2>1. PRE-LAUNCH</h2>
+              <h2>25% Sold</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
+                We airdrop 1 of the 10 1:1 super specters to a random owner. This specter will contain entirely unique properties and will be one-of-a-kind! 
               </p>
             </div>
             <div className="roadmap-box">
               <img src={Trans2} alt="" />
-              <h2>2. LAUNCH</h2>
+              <h2>50% Sold</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
+                We unravel more lore behind the specters. Where did they come from? Why are they here? What are they hiding? What are they hiding from? On top of this, we also will airdrop 1 of the coveted and highly sought after degen apes to a random holder.
               </p>
             </div>
             <div className="roadmap-box">
               <img src={Trans3} alt="" />
-              <h2>3. 25% OF THE TOTAL BUYS</h2>
+              <h2>75% Sold</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
+                We put together some dope merchandise. A design contest will be ran allowing holders to vote for the winner!
               </p>
             </div>
             <div className="roadmap-box">
-              <img src={Trans1} alt="" />
-              <h2>4. 50% OF THE TOTAL BUYS</h2>
+              <img src={Trans3} alt="" />
+              <h2>100% Sold</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
+                A surprise airdrop for all specter owners will take place. Who knows what awaits the soulless?
               </p>
             </div>
             <div className="roadmap-box">
               <img src={Trans2} alt="" />
-              <h2>5. 75% OF THE TOTAL BUYS</h2>
+              <h2>Post 100%</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
-              </p>
-            </div>
-            <div className="roadmap-box">
-              <img src={Trans3} alt="" />
-              <h2>6. 100% OF THE TOTAL BUYS</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                expedita perspiciatis dolor tempore? Modi, a? Perspiciatis
-                cupiditate repellat suscipit beatae!
+                We plan for specters staying relevant for years to come. We understand that community is everything for NFTs. That is why, a portion of royalties will be funded back into the community. This includes marketing, giveaways, and other secrets we aren’t ready to reveal to you just yet. We will also begin working on the SolSpecters platformer game.
               </p>
             </div>
           </div>
@@ -593,24 +546,24 @@ const App = () => {
             <h1>Team</h1>
             <div className="team-grid">
               <div className="team-card">
-                <img src={Saim} alt="" />
-                <h3>Saim Abbas</h3>
-                <h4>Frontend Developer</h4>
+                <img src={Pic3} alt="" />
+                <h3>ᚢᛁᚱᚴᛘᛅᚦᚱ</h3>
+                <h4>Artist</h4>
               </div>
               <div className="team-card">
-                <img src={Saim} alt="" />
-                <h3>Saim Abbas</h3>
-                <h4>Frontend Developer</h4>
+                <img src={Pic14} alt="" />
+                <h3>ᚼᚢᛋᛅᛋᛘᛁᚦᚱ</h3>
+                <h4>Technologist</h4>
               </div>
               <div className="team-card">
-                <img src={Saim} alt="" />
-                <h3>Saim Abbas</h3>
-                <h4>Frontend Developer</h4>
+                <img src={Pic1} alt="" />
+                <h3>ᚾᛅᛘᛅᛘᛅᚦᚱ</h3>
+                <h4>Community Manager</h4>
               </div>
               <div className="team-card">
-                <img src={Saim} alt="" />
-                <h3>Saim Abbas</h3>
-                <h4>Frontend Developer</h4>
+                <img src={Pic7} alt="" />
+                <h3>ᚢᛁᛁᚦᛁᛘᛅᚦᚱ</h3>
+                <h4>Ass. Community Manager</h4>
               </div>
             </div>
           </div>
