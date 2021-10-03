@@ -320,110 +320,113 @@ const App = () => {
               <CharacterBox
                 className="CHB CHB1 activeCHB"
                 img={Pic0}
-                name="Character 1"
-                description="This is the description for the character 1."
+                name="Abyssals"
+                description="The Abyssals are quite isolated from other Specter species as they live in deep ocean crevices. Bioluminescent light shines from their lanterns, attracting prey."
               />
               <CharacterBox
                 className="CHB CHB2"
                 img={Pic1}
-                name="Character 2"
-                description="This is the description for the character 2."
+                name="Apex"
+                description="The Apex, who resemble angels, live at the summits of mountains. Their wings allow them to reach incredible speeds."
               />
               <CharacterBox
                 className="CHB CHB3"
                 img={Pic2}
-                name="Character 3"
-                description="This is the description for the character 3."
+                name="Arachnids"
+                description="Arachnid specters sit silently in their webs for up to weeks at a time waiting for prey to get tangled in it. Their fangs release a special toxin which is only effective against other Specters."
               />
               <CharacterBox
                 className="CHB CHB4"
                 img={Pic3}
-                name="Character 4"
-                description="This is the description for the character 4."
+                name="Awakened"
+                description="Specter who obtained the phenomenal power at the cost of their own bodies. Corrupted by a demonic being, they are no longer in control of their own bodies."
               />
               <CharacterBox
                 className="CHB CHB5"
                 img={Pic4}
-                name="Character 5"
-                description="This is the description for the character 5."
+                name="Battleborn"
+                description="The Battleborn thrive in the midst of battle. They willingly took place in the Great Gas War, brutally taking down their opponents, it is said that one battleborn was equal to 300 men."
               />
               <CharacterBox
                 className="CHB CHB6"
                 img={Pic5}
-                name="Character 6"
-                description="This is the description for the character 6."
+                name="Bombards"
+                description="The Bombards, a species of specter who unwillingly participated in the Great Gas War. They were used in attacks on other civilizations at the cost of their own lives."
               />
               <CharacterBox
                 className="CHB CHB7"
                 img={Pic6}
-                name="Character 7"
-                description="This is the description for the character 7."
+                name="Herculians"
+                description="The Herculians are known to live in the giant grass forests. They are able to carry 850 times their own body weight!"
               />
               <CharacterBox
                 className="CHB CHB8"
                 img={Pic7}
-                name="Character 8"
-                description="This is the description for the character 8."
+                name="Kikurage"
+                description="The Kikurage are incredibly protective over the mushrooms that grow on their heads, which are said to be incredibly tasty."
               />
               <CharacterBox
                 className="CHB CHB9"
                 img={Pic8}
-                name="Character 9"
-                description="This is the description for the character 9."
+                name="Nox"
+                description="The Nox’s specialty gas mask like helmets allow them to survive the uninhabitable wastelands left behind after the Great Gas War."
               />
               <CharacterBox
                 className="CHB CHB10"
                 img={Pic9}
-                name="Character 10"
-                description="This is the description for the character 10."
+                name="The Risen"
+                description="The risen are undead specters who spend their time protecting the graves of those that have not yet risen. They have been observed guarding both tombstones and large burial sites such as pyramids."
               />
               <CharacterBox
                 className="CHB CHB11"
                 img={Pic10}
-                name="Character 11"
-                description="This is the description for the character 11."
+                name="Sakura"
+                description="Sakuras, the pacifist specters. Native to Japan, the females pick their mates based on whoever finds the prettiest flower every cherry blossom season."
               />
               <CharacterBox
                 className="CHB CHB12"
                 img={Pic11}
-                name="Character 12"
-                description="This is the description for the character 12."
+                name="Savages"
+                description="The Savages have existed since prehistoric times, they are always gnawing on something."
               />
               <CharacterBox
                 className="CHB CHB13"
                 img={Pic12}
-                name="Character 13"
-                description="This is the description for the character 13."
+                name="Soulful"
+                description="It's said that if you make eye contact with the Soulful, your soul will be stolen.
+                Their eyes and scarf eventually overflow with the souls they have hoarded
+                Plants seem to wither around them.
+                "
               />
               <CharacterBox
                 className="CHB CHB14"
                 img={Pic13}
-                name="Character 14"
-                description="This is the description for the character 14."
+                name="Specters"
+                description="The oldest form of specter. Unable to adapt to their surroundings, they live in the homes of past civilizations."
               />
               <CharacterBox
                 className="CHB CHB15"
                 img={Pic14}
-                name="Character 15"
-                description="This is the description for the character 15."
+                name="Spellbinders"
+                description="The Spellbinders spend their time isolated, studying and practicing their magic. They are able to control all four major elements, wind, water, fire , and earth. It has been recorded that they are able to control a fifth element though it seems taboo to even talk about it around them."
               />
               <CharacterBox
                 className="CHB CHB16"
                 img={Pic15}
-                name="Character 16"
-                description="This is the description for the character 16."
+                name="Tidebreakers"
+                description="Tidebreakers are a semi-aquatic specter which make their homes on tropical islands. When hunting, they use their horns to pierce fish. They build their homes out of anything that washes ashore."
               />
               <CharacterBox
                 className="CHB CHB17"
                 img={Pic16}
-                name="Character 17"
-                description="This is the description for the character 17."
+                name="Ursas"
+                description="Ursas are an incredibly territorial type of specter. They may allow you to pass through their claimed territory with a bribe of honey!"
               />
               <CharacterBox
                 className="CHB CHB18"
                 img={Pic17}
-                name="Character 18"
-                description="This is the description for the character 18."
+                name="Vulpes"
+                description="Vulpes are sly and agile specters. They can be found in most biomes hunting small prey."
               />
             </div>
           </div>
