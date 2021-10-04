@@ -321,7 +321,8 @@ const App = () => {
                 className="CHB CHB1 activeCHB"
                 img={Pic0}
                 name="Abyssals"
-                description="The Abyssals are quite isolated from other Specter species as they live in deep ocean crevices. Bioluminescent light shines from their lanterns, attracting prey."
+                description="The Abyssals are the only Specters who have evoled to have gills allowing them to live in deep ocean trenches.
+                Bioluminescent light shines from their lanterns, attracting prey."
               />
               <CharacterBox
                 className="CHB CHB2"
@@ -333,13 +334,14 @@ const App = () => {
                 className="CHB CHB3"
                 img={Pic2}
                 name="Arachnids"
-                description="Arachnid specters sit silently in their webs for up to weeks at a time waiting for prey to get tangled in it. Their fangs release a special toxin which is only effective against other Specters."
+                description="Arachnid Specterss sit silently in their webs for up to weeks at a time waiting for unsuspecting prey.
+                Their fangs release a special toxin which is only effective against other Specters."
               />
               <CharacterBox
                 className="CHB CHB4"
                 img={Pic3}
                 name="Awakened"
-                description="Specter who obtained the phenomenal power at the cost of their own bodies. Corrupted by a demonic being, they are no longer in control of their own bodies."
+                description="Specters who obtained the phenomenal power at the cost of their own bodies. Corrupted by a demonic being, they are no longer in control of their own bodies."
               />
               <CharacterBox
                 className="CHB CHB5"
@@ -351,7 +353,7 @@ const App = () => {
                 className="CHB CHB6"
                 img={Pic5}
                 name="Bombards"
-                description="The Bombards, a species of specter who unwillingly participated in the Great Gas War. They were used in attacks on other civilizations at the cost of their own lives."
+                description="The Bombards, a species of Specter who unwillingly participated in the Great Gas War. They were used in attacks on other civilizations at the cost of their own lives."
               />
               <CharacterBox
                 className="CHB CHB7"
@@ -375,13 +377,14 @@ const App = () => {
                 className="CHB CHB10"
                 img={Pic9}
                 name="The Risen"
-                description="The risen are undead specters who spend their time protecting the graves of those that have not yet risen. They have been observed guarding both tombstones and large burial sites such as pyramids."
+                description="The Risen are undead Rpecters who spend their times guarding the graves of their past friends who have not risen.
+                They have been observed guarding tombstones and even large burial sites such as pyramids."
               />
               <CharacterBox
                 className="CHB CHB11"
                 img={Pic10}
                 name="Sakura"
-                description="Sakuras, the pacifist specters. Native to Japan, the females pick their mates based on whoever finds the prettiest flower every cherry blossom season."
+                description="Sakuras, the pacifist Specterss. Native to Japan, the females pick their mates based on whoever finds the prettiest flower every cherry blossom season."
               />
               <CharacterBox
                 className="CHB CHB12"
@@ -401,32 +404,32 @@ const App = () => {
               <CharacterBox
                 className="CHB CHB14"
                 img={Pic13}
-                name="Specters"
-                description="The oldest form of specter. Unable to adapt to their surroundings, they live in the homes of past civilizations."
+                name="Remnant"
+                description="The oldest form of Specter. Unable to adapt to their surroundings, they live in the homes of past civilizations."
               />
               <CharacterBox
                 className="CHB CHB15"
                 img={Pic14}
                 name="Spellbinders"
-                description="The Spellbinders spend their time isolated, studying and practicing their magic. They are able to control all four major elements, wind, water, fire , and earth. It has been recorded that they are able to control a fifth element though it seems taboo to even talk about it around them."
+                description="The Spellbinders spend their time isolated, studying and practicing their magic. They are able to control all four major elements, wind, water, fire , and earth. It has been recorded that they are able to control a fifth element, though it seems taboo to even talk about it around them."
               />
               <CharacterBox
                 className="CHB CHB16"
                 img={Pic15}
                 name="Tidebreakers"
-                description="Tidebreakers are a semi-aquatic specter which make their homes on tropical islands. When hunting, they use their horns to pierce fish. They build their homes out of anything that washes ashore."
+                description="Tidebreakers are a semi-aquatic Specters which make their homes on tropical islands. When hunting, they use their horns to pierce fish. They build their homes out of anything that washes ashore."
               />
               <CharacterBox
                 className="CHB CHB17"
                 img={Pic16}
                 name="Ursas"
-                description="Ursas are an incredibly territorial type of specter. They may allow you to pass through their claimed territory with a bribe of honey!"
+                description="Ursas are an incredibly territorial type of Specter. They may allow you to pass through their claimed territory with a bribe of honey!"
               />
               <CharacterBox
                 className="CHB CHB18"
                 img={Pic17}
                 name="Vulpes"
-                description="Vulpes are sly and agile specters. They can be found in most biomes hunting small prey."
+                description="Vulpes are sly and agile Specterss. They can be found in most biomes hunting small prey."
               />
             </div>
           </div>
@@ -455,7 +458,7 @@ const App = () => {
               <div className="faq-grid-left">
                 <div className="faq-box">
                   <div className="faq-q q1 q" onClick={q1}>
-                  1) What are SolSpecter?
+                  1) What are SolSpecters?
                   </div>
                   <div className="faq-a a1 a">
                   SolSpecters are 8888 unique programmatically generated NFTs that are all that remains after the Great Gas 
@@ -477,7 +480,7 @@ Click here to download the Phantom Wallet https://phantom.app/
                   3) When is the launch? How much will it cost?
                   </div>
                   <div className="faq-a a3 a">
-                  Our whitelisted presale will be taking place on the 6th of October and out public sale will be on the 7th.
+                  Our whitelisted presale will be taking place on the 6th of October and our public sale will be on the 7th.
 SolSpecters cost .8 Sol per mint.
                   </div>
                 </div>
@@ -507,14 +510,14 @@ SolSpecters cost .8 Sol per mint.
               <img src={Trans1} alt="" />
               <h2>25% Sold</h2>
               <p>
-                We airdrop 1 of the 10 1:1 super specters to a random owner. This specter will contain entirely unique properties and will be one-of-a-kind! 
+                We airdrop 1 of the 10 1:1 super Specters to a random owner. This Specter will contain entirely unique properties and will be one-of-a-kind! 
               </p>
             </div>
             <div className="roadmap-box">
               <img src={Trans2} alt="" />
               <h2>50% Sold</h2>
               <p>
-                We unravel more lore behind the specters. Where did they come from? Why are they here? What are they hiding? What are they hiding from? On top of this, we also will airdrop 1 of the coveted and highly sought after degen apes to a random holder.
+                We unravel more lore behind the Specters. Where did they come from? Why are they here? What are they hiding? What are they hiding from? On top of this, we also will airdrop 1 of the coveted and highly sought after degen apes to a random holder.
               </p>
             </div>
             <div className="roadmap-box">
@@ -528,14 +531,14 @@ SolSpecters cost .8 Sol per mint.
               <img src={Trans3} alt="" />
               <h2>100% Sold</h2>
               <p>
-                A surprise airdrop for all specter owners will take place. Who knows what awaits the soulless?
+                A surprise airdrop for all Specter owners will take place. Who knows what awaits the soulless?
               </p>
             </div>
             <div className="roadmap-box">
               <img src={Trans2} alt="" />
               <h2>Post 100%</h2>
               <p>
-                We plan for specters staying relevant for years to come. We understand that community is everything for NFTs. That is why, a portion of royalties will be funded back into the community. This includes marketing, giveaways, and other secrets we aren’t ready to reveal to you just yet. We will also begin working on the SolSpecters platformer game.
+                We plan for Specters staying relevant for years to come. We understand that community is everything for NFTs. That is why, a portion of royalties will be funded back into the community. This includes marketing, giveaways, and other secrets we aren’t ready to reveal to you just yet. We will also begin working on the SolSpecters platformer game.
               </p>
             </div>
           </div>
