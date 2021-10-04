@@ -553,23 +553,23 @@ SolSpecters cost .8 Sol per mint.
             <div className="team-grid">
               <div className="team-card">
                 <img src={Pic3} alt="" />
-                <h3>ᚢᛁᚱᚴᛘᛅᚦᚱ</h3>
+                <h3>Unknown</h3>
                 <h4>Artist</h4>
               </div>
               <div className="team-card">
                 <img src={Pic14} alt="" />
-                <h3>ᚼᚢᛋᛅᛋᛘᛁᚦᚱ</h3>
+                <h3>Oisin</h3>
                 <h4>Technologist</h4>
               </div>
               <div className="team-card">
                 <img src={Pic1} alt="" />
-                <h3>ᚾᛅᛘᛅᛘᛅᚦᚱ</h3>
+                <h3>Rize</h3>
                 <h4>Community Manager</h4>
               </div>
               <div className="team-card">
                 <img src={Pic7} alt="" />
-                <h3>ᚢᛁᛁᚦᛁᛘᛅᚦᚱ</h3>
-                <h4>Ass. Community Manager</h4>
+                <h3>Blaztt</h3>
+                <h4>Community Manager</h4>
               </div>
             </div>
           </div>
