@@ -5,7 +5,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-var sslRedirect = require('heroku-ssl-redirect');
+import sslRedirect from 'heroku-ssl-redirect';
+import express from 'express';
 const app = express();
 app.use(sslRedirect());
 
